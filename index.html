@@ -1,29 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Decimal to Binary Converter</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Roman Numberal Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-    <h1>
-        Decimal to Binary <br />
-        Converter
-    </h1>
-    <section class="input-container">
-        <label for="number-input">Enter a decimal number:</label>
-        <input value="" type="number" name="decimal number input" id="number-input" class="number-input" />
-        <button class="convert-btn" id="convert-btn">Convert</button>
-    </section>
-    <section class="output-container">
-        <output id="result" for="number-input"></output>
-        <h2>Call stack</h2>
-        <div id="animation-container"></div>
-    </section>
+    <main>
+        <img class="freecodecamp-logo" src="	https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg"
+            alt="freecodecamp logo">
+        <h1>Roman Numeral Converter</h1>
+        <form id="form" class="form">
+            <fieldset>
+                <label for="number">Enter
+                    a Number</label>
+                <br>
+                <input type="number" id="number" required>
+                <button type="button" id="convert-btn">Convert</button>
+            </fieldset>
+        </form>
+        <div id="output" class="output hidden"></div>
+    </main>
     <script src="script.js"></script>
 </body>
 
